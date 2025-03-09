@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Full Page Screenshot",
+    "version": "1.0",
+    "description": "Takes a screenshot of the entire page",
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "downloads",
+        "tabs"
+    ],
+    "action": {
+        "default_icon": {
+            "16": "images/icon16.png",
+            "48": "images/icon48.png",
+            "128": "images/icon128.png"
+        },
+        "default_title": "Take Full Page Screenshot"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    }
+}
